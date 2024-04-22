@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+ 
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+ 
+ 
+ 
+.section1 {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    background-color: #fff
+}
+ 
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+ 
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+        background-color: #fff;
+        color: #333;
+    }
+ 
+    .section1 {
+        display: block;
+        background-color: #333;
+        color: #fff;
+    }
+ 
+    .footer {
+        background-color: #fff;
+        color: #333;
+    }
+}
